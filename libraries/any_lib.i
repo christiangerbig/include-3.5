@@ -1,0 +1,12 @@
+  IFND ANY_ANY_LIB_I
+ANY_ANY_LIB_I EQU 1
+
+CALLLIBS MACRO
+    jsr	   _LVO\1(a6)
+    ENDM
+
+CALLLIBQ MACRO
+    jmp	   _LVO\1(a6)
+    ENDM
+
+  ENDC
