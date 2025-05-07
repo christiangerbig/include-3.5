@@ -26,7 +26,7 @@ ID_SOND equ "SOND"
 	BOOL   sop_DisplayQueue	; Flash the display?
 	BOOL   sop_AudioQueue		; Make some sound?
 	UWORD  sop_AudioType		; Type of sound, see below
-	UWORD  sop_AudioVolume		; Volume of sound, 0..64
+	UWORD  sop_AudioVolume		; Volume of sound, 0-64
 	UWORD  sop_AudioPeriod		; Period of sound, 127..2500
 	UWORD  sop_AudioDuration	; Length of simple beep
 	STRUCT sop_AudioFileName,256	; Filename of 8SVX file

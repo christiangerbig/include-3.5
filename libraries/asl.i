@@ -270,7 +270,7 @@ ASLFO_BackColors      equ ASL_TB+65  ; Color table for back pen palette
 ;* An Exec list of custom modes can be added to the list of available modes.
 ;* The DimensionInfo structure must be completely initialized, including the
 ;* Header. See <graphics/displayinfo.h>. Custom mode ID's must be in the range
-;* 0xFFFF0000..0xFFFFFFFF. Regular properties which apply to your custom modes
+;* 0xFFFF0000-0xFFFFFFFF. Regular properties which apply to your custom modes
 ;* can be added in the dn_PropertyFlags field. Custom properties are not
 ;* allowed.
 ;*

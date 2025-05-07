@@ -90,7 +90,7 @@ DOS_RDARGS_I SET 1
 		STRUCT	RDA_Source,CS_SIZEOF	; Select input source
 		APTR	RDA_DAList		; PRIVATE.
 		LONG	RDA_Buffer		; Optional string parsing space.
-		LONG	RDA_BufSiz		; Size of RDA_Buffer (0..n)
+		LONG	RDA_BufSiz		; Size of RDA_Buffer (0-n)
 		APTR	RDA_ExtHelp		; Optional extended help
 		LONG	RDA_Flags		; Flags for any required control
 		LABEL	RDA_SIZEOF

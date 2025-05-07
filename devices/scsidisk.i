@@ -36,14 +36,14 @@ DEVICES_SCSIDISK_I	EQU	1
 ;		 12	LUN 1 on multiple drive controller at address 2
 ;		104	second controller board, address 4
 ;		 88	not valid: both logical units and addresses
-;			range from 0..7.
+;			range from 0-7.
 ;
 ;   CAVEATS
 ;	Original 2090 code did not support this command.
 ;
 ;	Commodore 2090/2090A unit numbers are different.  The SCSI
 ;	logical unit is the 100's digit, and the SCSI Target ID
-;	is a permuted 1's digit: Target ID 0..6 maps to unit 3..9
+;	is a permuted 1's digit: Target ID 0-6 maps to unit 3..9
 ;	(7 is reserved for the controller).
 ;
 ;	    Examples:
